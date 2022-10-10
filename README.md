@@ -1,6 +1,6 @@
 # Mars-Tas-1
 
-##Problem 4
+#Problem 4
 
 Difference between ""(double quotes) & ''(single quotes)
 
@@ -34,12 +34,13 @@ $num
 
 
 
-##Problem 5
+#Problem 5
 
 Export is a built-in command of the Bash shell. 
-It is used to mark variables and functions to be passed to child processes.
-A variable will be included in child process environments without affecting other environments.
+It marks an environment variables to be exported to child-processes.
 Environment variables are set when you open a new shell session. 
+At any time if you change any of the variable values, the shell has no way of picking that change. 
+The export command, on the other hand, provides the ability to update the current shell session about the change you made to the exported variable. You don’t have to wait until new shell session to use the value of the variable you changed.
 
 So if we will execute
 
